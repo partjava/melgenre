@@ -1,0 +1,27 @@
+# 数据集（太大不上传）
+data/fma_small/
+data/fma_medium/
+data/fma_metadata/
+data/spectrograms/
+*.zip
+
+# 训练好的模型
+# models_saved/*.pkl
+# models_saved/*.pth
+
+# 生成的结果图（太大）
+# results/*.png
+# !results/home.png
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# 考试材料
+*.doc
+*.docx
+*.pdf
+
+
+# 临时文件
+*.npy

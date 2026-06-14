@@ -1,0 +1,34 @@
+{
+  "dataset": "GTZAN (1000首, 10流派)",
+  "note": "传统ML在GTZAN上的实验结果",
+  "models": {
+    "SVM": {
+      "accuracy": 0.8079,
+      "precision": 0.8216,
+      "recall": 0.8079,
+      "f1": 0.8073,
+      "time": "0.3s"
+    },
+    "RandomForest": {
+      "accuracy": 0.7881,
+      "precision": 0.7918,
+      "recall": 0.7881,
+      "f1": 0.7868,
+      "time": "0.4s"
+    },
+    "KNN": {
+      "accuracy": 0.7285,
+      "precision": 0.7371,
+      "recall": 0.7285,
+      "f1": 0.7251,
+      "time": "3.3s"
+    },
+    "XGBoost": {
+      "accuracy": 0.8013,
+      "precision": 0.8039,
+      "recall": 0.8013,
+      "f1": 0.7995,
+      "time": "8.3s"
+    }
+  }
+}
