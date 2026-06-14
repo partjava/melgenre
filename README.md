@@ -4,6 +4,12 @@
 
 基于FMA-small公开数据集，通过提取音频多维特征（MFCC、梅尔频谱、色度特征等），对比传统机器学习和深度学习方法，实现8种音乐流派的自动分类。
 
+## 系统架构
+
+![系统流程图](results/系统流程图.png)
+
+![系统架构图](results/architecture.png)
+
 ## Demo演示
 
 ![系统界面](results/home.png)
